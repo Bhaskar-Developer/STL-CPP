@@ -4,23 +4,18 @@ Iterators for Vector:
 
 begin(): This returns an iterator/pointer pointing to first element of the vector.
 end(): This returns an iterator/pointer pointing at the theoritical element that follows the last element of the vector.
-
 rbegin(): This is reverse begin. This returns a pointer pointing to last element in vector. This can be used for reverse iteration. i.e iterating from back to front.
-
 rend(): This is reverse pointer that points to theoritical element that is present before the first element of the vector.
-
 cbegin(): This returns a constant pointor that points to the first element of the vector.
-
 cend(): This returns a constant pointer that points to the theoritical element that is present next to the last element of the vector.
-
 crbegin(): Its a constant reverse pointer. Points to last element.
-
 crend(): A constsant reverse pointer that points to the theoritical element that is present before the first element.
+
 
 Note: All constant iterators cannot modify the contents of the vector in any way.
       Iterators are only used to iterate an modify existing vector. They are not used to initialize vectors with values.
 
-functions that deal with capacity of Vectors: 
+Functions that deal with capacity of Vectors: 
 
 size(): this returns the number of elements in the vector.
 max_size(): returns the max number of elements the vector can hold.
@@ -31,6 +26,7 @@ shrink_to_fit(): reduces the capacity of the container to fit its size and destr
 reserve():requests that the vector capacity be at least enough to contain n elements
 
 Functions that deal with element access of the vector:
+
 reference_operator[g]: returns reference to element g in the vector.
 at(g): returns a reference to the element at position g in the vector.
 front(): returns reference to the first element in the vector.
@@ -38,6 +34,7 @@ back(): returns reference to the last element in the vector.
 data(): returns a direct pointer to the memory array used internally by the vector to store its owned elements.
 
 Functions that deal with modifications to the vector container:
+
 assign(): it assigns new values to the vector elements by replacing old ones.
 push_back(): it pushes an element into the vector from the back.
 pop_back(): it is used to remove elements from the vector from the back.
