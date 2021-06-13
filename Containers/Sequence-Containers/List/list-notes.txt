@@ -1,0 +1,25 @@
+Lists are sequence containers that allow non-contiguous memory allocations. As compared to vectors, list has slow traversal, but once position is found then insertion and deltions are quick. Normally when we talk about list we mean doubly linked list. If we want to implement singly linked list then we use forward list.
+
+Iterators of list:
+begin(): returns the iterator pointing to the first element of the list.
+end(): returns the iterator pointing to the theoritical last element after the last element of the list.
+cbegin(): returns the constant iterator pointing to the first element of the list.
+cend(): returns the constant iterator pointing to the theoritical last element after the last element of the list.
+rbegin(): returns the reverse iterator pointing to the last element of the list.
+rend(): returns the reverse iterator pointing at the position before the first element of the list.
+crbegin(): returns the constant reverse iterator pointing to the last element of the list.
+crend(): returns the constant reverse iterator pointing at the position before the first element of the list.
+
+
+Functions used with list:
+
+front(): returns the value of the first element in the list.
+back(): returns the value of the last element in the list.
+push_front(g): adds a new element 'g' at the begining of the list.
+push_back(g): adds a new element 'g' at the end of the list.
+pop_front(): removes the first element of the list and reduces the size of the list by 1.
+pop_back(): removes the last element of the list and reduces the size of the list by 1.
+empty(): used to check if the list is empty or not.
+insert(): inserts a new element in the list before the element at that specified position.
+erase(): removes a single element or range of elements from the list.
+assign(): assigns new elements to the list by replacing current elements and resizes the list.
