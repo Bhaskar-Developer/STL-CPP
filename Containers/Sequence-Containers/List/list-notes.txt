@@ -26,6 +26,9 @@ remove_if(): used to remove all values from the list that correspond true to the
 reverse(): Reverses the list.
 resize(): used to resize the list container.
 sort(): sorts the list in increasing order.
+emplace_front(): used to insert a new element in the list container. The element is added at the begining of the list.
+emplace_back(): used to insert a new element in the list. The element is inserted at the back of the list.
+emplace(): extends the list by adding an element at the mentioned position.
 
 
 
@@ -35,5 +38,7 @@ back(): returns the value of the last element in the list.
 empty(): used to check if the list is empty or not.
 max_size(): returns the maximum number of elements the list can hold.
 unique(): removes all duplicate conservative elements from the list.
-emplace_front(): used to insert a new element in the list container. The element is added at the begining of the list.
-emplace_back(): used to insert a new element in the list. The element is inserted at the back of the list.
+clear(): used to remove all elements of the list container, which makes the size of the container to 0.
+swap(): it is used to swap the contents of one list with the other list where both are of same type and size.
+splice(): used to transfer elements from one list to another.
+merge(): merges two sorted list into one.
