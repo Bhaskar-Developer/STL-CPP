@@ -1,0 +1,32 @@
+Double ended queues(deque) are sequence containers with the feature of expansion and contraction on both ends. They are similar to vectors but are more efficient in case of insertion and deletion of elements. Unlike vectors, contiguous storage allocation may not be guaranteed. 
+Double Ended Queues are basically an implementation of the data structure double ended queue. Double ended queues are special case queues where insertion and deletion operations are possible through both the ends. The functions of deque are similar to vectors, with an addition of push and pop operations for both front and back.
+
+Iterators for Deque:
+begin(),end(),cbegin(),cend(),rbegin(),rend(),crbegin(),crend().
+
+Operations/Functions on Deque:
+
+insert(): inserts an element or elements and returns an iterator that oiints to the first of the newely inserted element.
+Note: insert can be used in 3 ways
+1.insert an element at a specified position.
+2.insert n elements of value v.
+3.insert new element within the specified range.
+max_size(): returns max size of deque.
+assign(): used to assign values to the same or different deque.
+resize(): used to resize the deque container.
+front(): returns reference to first element.
+back(): returns reference to last elment.
+clear(): used to remove all elements from deque.
+erase(): used to remove elements from the container from the specified range/position.
+empty(): used to check if deque is empty.
+size(): returns the size of the deque container or the number of elements present in deque.
+at(): returns the reference of the element present at the mentioned position.
+swap(): this is used to swap contents on one deque with another deque.
+
+Modifiers for Deque:
+push_front(): used to push element at the front of deque.
+pop_front(): used to pop element from the front of the dequeue.
+push_back(): used yo push element at the end of the deque
+pop_back(): used to pop element from back of deque.
+emplace_front(): used to insert an element into the deque. The element is inserted at the begining of the deque. 
+emplace_back(): used to insert an element into the deque. The element is inserted at the end of the deque. 
