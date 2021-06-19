@@ -1,0 +1,21 @@
+C++ array class is very similar to C style arrays. But there are big differences and advantages.
+
+The advantages of array class in STL and C Style arrays are.
+
+1. Array classes know their own size.
+2. There is no risk of array decaying to a pointer. Array classes dont decay into a pointer.
+3. Array classes are generally more efficient, light weight and reliable.
+
+
+Operations on Array:
+
+at(): This function is used to access the elements of the array.
+get(): This is also used to access the elements of the array. This function is not the member of array class but overloaded function from the class tuple.
+operator[]: This is similar to C-style arrays. This method is also used to access array elements.
+front(): This returns the first element of the array.
+back(): This returns the last element of the array.
+size(): It returns the number of elements in the array. This is the property that C-style arrays lack.
+max_size(): It returns the maximum number of elements array can hold i.e, the size with which the array is declared. The size() and max_size() return the same value.
+swap(): The swap() swaps all elements of one array with other.
+empty(): This function used to check of the array is empty or not.
+fill(): This function us used to fill the entire array with a particular element.
