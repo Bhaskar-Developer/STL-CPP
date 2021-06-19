@@ -1,0 +1,24 @@
+Forward List in STL implements Singly Linked List. Introduced in C++11. Insertions and deletion operations take costant time. It is not a doubly doubly linked list like the list container. This means that forward List cannot be iterated backwords. The individual elements cannot be accessed directly in forward list. Forward lists are preffered only if forward traversing of the list is required. Some use cases of forward list include chaining in hashing, adjacency list representation in graph, etc.
+
+Operations on Forward List:
+
+assign(): this is used to assign values to the forward list. There is another variant of this function which is used to assign repeated elements.
+push_front(): pushes an element in the front of the forward list.
+emplace_front(): this is similar to push_front(), but there is no copying that occurs. The element is created directly before the first element of the forward list.
+pop_front(): used to pop an element from the front of the forward list.
+insert_after(): this function gives a choice to insert an element any position in the forward list. 
+emplace_after(): same as the insert_after() operation, but there is no copying operation.
+erase_after(): this function is used to erase elements from a particular position in the forward list.
+remove(): this function removes the particular element from the forward list mentioned in its argument.
+remove_if(): the function removes elements according to the condition specified in its arguments.
+splice_after(): transfers elements from one forward list to another.
+front(): used to print the first element of the forward list.
+max_size(): returns the maximum size of the forward list.
+resize(): used to resize the forward list container.
+
+Iterators in Forward List:
+
+begin(),end(),cbegin(),cend()
+before_begin(): returns and iterator which points before the first element of the forward list.
+cbefore_begin(): returns a constant random iterator which points to the location before the first element in forward list.
+Note: reverse iterators not available for forward list as forward list can only be traversed in forward direction. 
