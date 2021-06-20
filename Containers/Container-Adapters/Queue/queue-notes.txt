@@ -1,0 +1,11 @@
+Queues are type of container which operate in a first in first out (FIFO) type of arrangement. Elements are inserted at the back and are deleted from the front.
+
+Operations on Queue:
+empty(): returns whether queue is empty or not.
+size(): returns the size of the queue.
+swap(): used to swap contents of one queue with another. The type of both these queues should be same.
+emplace(): used to add new element at the back of the queue. This does not involve any copy operation.
+front(): return first element of queue.
+back(): returns last element of queue.
+push(g): used to push an element 'g' at the back queue.
+pop(): used to pop an element from thr front of the queue.
