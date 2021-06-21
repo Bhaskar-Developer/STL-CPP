@@ -1,0 +1,9 @@
+Stacks are type of container adaptors with LIFO(Last In First Out) type of working, where a new element id added at one end and the element is also removed from the same end. This is also known as top. Stack uses an encapsulated object of either vector or deque(by default) or list(sequencial container class) as its underlying container. 
+
+Operations on Stack:
+
+empty(): returns whether stack is empty.
+size(): returns the size of the stack container. i.e the number of elements.
+top(): returns reference to the top most element of the stack.
+push(g): used to push an element 'g' at the top of stack.
+pop(): used to remove an element from the top of the stack.
