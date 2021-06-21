@@ -1,0 +1,14 @@
+Priority Queues are types of container adaptors. specifically designed such that the first element in the queue is the greatest of all elements in the queue and elements are in non-increasing order. Hence we can see that each element in the queue has priority(fixed order). 
+Note: Priority Queue when declared will create a Max heap
+Syntax to create Priority Queue that uses Min Heap
+priority_queue<int, vector<int>, greater<int>> min-priority-queue{};
+
+Operations on Priority Queue:
+empty(): returns if priority queue is empty.
+size(): returns the size of the priority queue i.e. the number of elements in the priority queue.
+top(): returns reference to the top most element of the priority queue.
+push(g): inserts an element 'g' at the end of the priority queue.
+pop(): this function removes the first element from the priority queue.
+swap(): used to swap contents of one priority queue with another priority queue which have the same size and type.
+emplace(): used to add new element to the front of the priority queue. This does not do any copy operation.
+value_type(): Represents the type of object stored as an element in a priority queue. It acts as a synonym for the template paramater.  
