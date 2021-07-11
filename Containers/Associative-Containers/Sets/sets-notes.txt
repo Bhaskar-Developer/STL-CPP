@@ -1,0 +1,19 @@
+Sets are types of associative containers in  which each element has to be unique, because the value of the element identifies it. The value of the element cannot be modified once it is added to the set, though it is possible to remove and add the modified value of that element.
+
+Iterators of Sets
+begin, end, rbegin, rend, crbegin, crend, cbegin, cend
+
+Functions associated with Sets
+size(): returns the number of elements in the set.
+max_size(): returns the maximum number of elements the set can hold.
+empty(): returns whether set is empty or not.
+insert(const g): adds a new element 'g' to the Set.
+iterator_insert(iterator position, const g): inserts a new element 'g' at the position pointed by the iterator.
+erase(iterator position): removes an element at the position pointed by the iterator.
+erase(const g): removes value 'g' from the set.
+clear(): removes all elements from the set.
+find(const g): returns the iterator to the element 'g' in the set if found. If not found then end() iterator is returned.
+count(const g): returns 1 or 0 based on the element 'g' is present in the set or not.
+lower_bound(const g): returns an iterator to the first element that is equivalent to 'g'.
+upper_bound(const g): returns an iterator to the first element that is placed after the element 'g'
+swap(): used to swap contents of one set with another set provided they are of same type. 
